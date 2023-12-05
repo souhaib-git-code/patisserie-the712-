@@ -1,0 +1,115 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+        background-image: url("images/pâtisserie-au-goût-âpre-d-oeufs-portugais-à-vendre-dans-la-boutique-locale-de-pasteleria-100712761.webp");
+    background-size:cover; 
+    background-repeat: no-repeat;
+    height : 100vh;
+}
+
+#signUp{
+    height : 92vh;
+    width: 40vw;
+    background: #ffece6;
+    margin-left : 56vw;
+    margin-top: 4vh;
+}
+
+input{
+    border : 0;
+    border-bottom : 0.25vh solid black;
+    border-left : 0.25vh solid black;
+    height:4vh;
+}
+
+label{
+    font-family: 'Cinzel', serif;
+    font-size:3vh;
+}
+
+#letsGo{
+    height: 12vh;
+    width: 38.6vw;
+    background: #ffd9cc;
+    text-align:center;
+    padding: 1.5vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    margin-top:-2vh;
+    padding: 3rem 4rem;
+}
+
+.inp{
+    margin-bottom: 1rem;
+}
+
+::placeholder{
+    font-size:2.7vh;
+    text-align:center;
+}
+
+.login:hover{
+    color:red;
+    font-weight:bold;
+    font-size:3.2vh;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #fac031;
+    border-radius: 15px;
+}
+
+
+
+footer .liste {
+    background-color:#bef574 ;
+    display: flex; 
+    justify-content: space-around;
+
+   /* align-items: center; */ 
+  
+   
+
+}
+
+
+footer li {
+    list-style: none;
+    padding-top: 30px;
+}
+/*header { background-color: #bef574;} */
+footer ul{
+    text-decoration: underline;
+}
+
+footer .liste {
+    background-color:#bef574 ;
+    display: flex; 
+    justify-content: space-around;
+
+   /*align-items: center; */ 
+  
+   
+
+}
+ 
+.liens 
+{ 
+    background-color: azure;
+}
