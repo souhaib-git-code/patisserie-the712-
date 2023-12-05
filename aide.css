@@ -1,0 +1,38 @@
+body {
+    background-color: bisque;
+
+
+}
+table{ 
+    border-color: blue;
+    border-radius: 20px ;
+    background-color: black;
+    border-style: solid;
+    padding: auto ;
+}
+tr {
+
+background-color: azure;
+}
+
+
+footer .liste {
+    background-color:#bef574 ;
+    display: flex; 
+    justify-content: space-around;
+
+   /*align-items: center; */ 
+  
+   
+
+}
+
+
+footer li {
+    list-style: none;
+    padding-top: 14px;
+}
+/*header { background-color: #bef574;} */
+footer ul{
+    text-decoration: underline;
+}
