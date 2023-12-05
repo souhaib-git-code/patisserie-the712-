@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compte.css">
+    <title> Crée un compte  </title>
+</head>
+<body>
+    <div class="lienss">
+        <center>  
+ 
+            <div id="liste">
+
+              <ul> 
+                  <li><a href="Acceuil.html" > Page acceuil </a></li>
+                    <li><a href="produits.html">Page des  Produits</li>
+                    <li><a href="aide.html" > Page d'Aide</a>  </li>
+            
+                </ul>
+               
+
+            </div>
+
+        </div>
+
+       </center> 
+    </div> 
+ 
+	<div id="signUp">
+        <div id="letsGo" style="font-size:10vh;font-family: 'Great Vibes', cursive;">Crée un compte</div>
+        
+        <form>
+        
+            <label for="fname" class="field"><b>Nom complet </b><span style="color:rgb(184, 20, 20);"><b>*</b></span></b></label>
+            <input class="inp" type="text" name="name" id="fname" pattern=[A-Za-z] title=" utuliser seulement des caracteres " placeholder="Saisissez votre nom" size="35" required/>
+            
+            <label for="mail" class="field"><b>Email</b></label>
+            <input class="inp" type="email" name="email" id="mail" placeholder="entrer votre e-mail" size="35"/>
+            
+            <label for="num" class="field"><b>Numéro de telephone</b><span style="color:red;"><b>*</b></span></label>
+            <input class="inp" type="tel" name="mobile" id="num" placeholder="entrer votre numero de telephone" size="35" required/>
+            
+            <label for="userN" class="field"><b>Nom d'utulisateur</b><span style="color:red;"><b>*</b></span></label>
+            <input class="inp" type="text" name="username" id="userN" pattern="[a-z0-9_]" title="utuliser seulement les caracteres minuscules et les chiffres " placeholder="Saisissez nom d'utulisateur" size="35" required/>
+            
+            <label for="pass" class="field"><b>Mot de passe </b><span style="color:red;"><b>*</b></span></label>
+            <input class="inp" type="password" name="password" id="pass" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z).{8,}" title="Saisissez au moins 8 caractères ou plus avec au moins une lettre majuscule, une lettre minuscule et un chiffre." placeholder="Saisissez votre mot de passe" size="35" required/>
+            
+            <button type="submit" value="Submit" class="btn" name="submit" style="font-size:2.7vh; align-self: stretch; margin-bottom: 0.6rem; ">valider </button>
+            
+            Vous avez déjà un compte?
+            <input class="inp" type="text" name="username" id="userN"  placeholder="Saisissez nom d'utulisateur" size="35" required/>
+
+             <a href="" class="login"> <u>valider</u></a>
+        </form>
+        </div>
+
+
+
+    
+
+           <!--Footer-->
+
+
+    <footer>
+
+
+
+
+        <div class="liste"> 
+
+    <div class="items" >
+        <ul>
+            <li> LE SUCRÉ </li>
+            <li>Pâtisseries tunisiennes</li>
+            <li>La tradition revisitée</li>
+            <li>Les gateaux européens</li>
+            <li>Les bouchées sucrées </li>
+            <li>Les gateaux d’anniversaire </li>
+            <li>les gâteaux de cérémonie</li>
+        </ul>
+    </div>
+        <div class="items" >
+        <ul> 
+            <li>IDÉES CADEAUX</li>
+            <li>Les assortiments de chocolats gourmands</li>
+            <li> Les assortiments de boulettes précieuses </li>
+            <li>Les assortiments de gourmandises de l'orient</li>
+        </ul>
+        </div>
+
+        <div class="items" >
+        <ul> 
+            <li> LES SERVICES </li>
+            <li> Expédition</li>
+            <li> Personnalisation de gâteaux </li>
+            <li> Livraison </li>
+            <li>Conseil </li>
+        </ul>
+    </div>
+
+
+           
+
+            <div class="footer_tag">
+                <img src="RESEAUX-SOCIAUX-LA-PLATEFORME-CHR.png" usemap="#image_map" >
+                <map name="image_map">
+                  <area alt="facebook" title="facebook"  target="_blank" href="https://www.facebook.com/" coords="73,129,53" shape="circle">
+                  <area alt="Instagram" title="Instagram" target="_blank" href="https://www.instagram.com/" coords="202,131,57" shape="circle">
+                  <area alt="twitter " title="twitter " target="_blank"  href="https://twitter.com/?lang=fr" coords="75,263,61" shape="circle">
+  <area alt="whatsapp" title="whatsapp" target="_blank" href="https://www.whatsapp.com/?lang=fr_FR" coords="202,266,51" shape="circle">
+                </map> 
+            </div>
+
+
+    </footer>
+ 
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>The 712</title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="styles.css"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   </head>
+  <body>
+
+    <!------->
+    <div>
+  <h1 id="title"> The 712   </h1>
+  <p id="description">Votre avis est important pour nous! &#x2764;</p>
+    <form id="survey-form" method="post"action="https://getform.io/f/ce752c9f-6ea2-40de-b94b-4fc9385b8f91">
+    <fieldset>
+      <br>
+    <label class="block bold" for="name" id="name-label">Veuillez remplir votre nom complet
+      <input id="name" name="name" type="text" placeholder="Souhaib hamdi " required/></label>
+      <br><br><br>
+    <label for="email" id="email-label" class="block bold">Votre adresse e-mail
+      <input id="email" name="email" type="email" placeholder="xyz@gmail.com" required/></label>
+      <br><br><br>
+    <label for="number" id="number-label" class="block bold"> quel est votre age ? 
+      <input id="number" name="age" type="number" min="4" max="120" placeholder="Age" required/></label>
+      <br><br><br>
+       <label for="dropdown" id="dropdown-label" class="block bold">Comment avez-vous entendu parler de nous?
+      <select id="dropdown" name="hear-about-us" required>
+      <option value="">(sélectionnez)</option>
+      <option value="Instagram">Instagram</option>
+      <option value="Facebook">Facebook</option>
+      <option value="Other social media">Les magazines</option>
+      <option value="Radio">Radio</option>
+      <option value="Search engine">Moteur de recherche</option>
+      <option value="Other">Autres</option>
+      </select>
+      </label>
+      </fieldset>
+      <fieldset>
+        <br>
+        <label for="rate-cleanliness" class="block bold">Comment jugez-vous la propreté de notre pâtisserie ?</label>
+          <br><br>
+        <label for="clean-excellent"><input id="clean-excellent" type="radio" name="rate-cleanliness" value="Excellent" required>Excellent</label>
+        <label for="clean-good"><input id="clean-good" name="rate-cleanliness" type="radio" value="Good" required>Bien</label>
+        <br>
+        <label for="clean-fair"><input id="clean-fair" name="rate-cleanliness" type="radio" value="Fair" required>moyen</label>
+        <label for="clean-poor"><input id="clean-poor" name="rate-cleanliness" type="radio" value="Poor" required>Mauvaise</label>
+        <br><br><br>
+        <label for="rate-staff" class="block bold">Comment jugez-vous la gentillesse et le professionnalisme de notre personnel ?</label>
+        <br><br>
+        <label for="staff-excellent"><input id="staff-excellent" type="radio" name="rate-staff" value="Excellent" required>Excellent</label>
+        <label for="staff-good"><input id="staff-good" name="rate-staff" type="radio" value="Good" required>Bien</label>
+        <br>
+        <label for="staff-fair"><input id="staff-fair" name="rate-staff" type="radio" value="Fair" required>Moyen</label>
+        <label for="staff-poor"><input id="staff-poor" name="rate-staff" type="radio" value="Poor" required>Mauvaise</label>
+        </fieldset> 
+        <fieldset>
+            <p class="block bold">Qu'avez-vous essayé?</p>
+              <br>
+              <br>
+            <label for="layer-cakes"><input id="layer-cakes" type="checkbox" name="Gateaux" value="yes">Gateaux</label>
+            <br><br><label for="cookies"><input id="cookies" type="checkbox" name="Biscuits & Cookies" value="yes"> Biscuits & Cookies</label>
+            <br><br>
+             <label for="muffins"><input id="muffins" type="checkbox" name="muffins" value="yes"> Muffins</label><br><br>
+              <label for="cheesecakes"><input id="cheesecakes" type="checkbox" name="cheesecakes" value="yes"> Cheesecakes</label>
+              <br><br>
+               <label for="pies-tarts"><input id="pies-tarts" type="checkbox" name="tartes" value="yes"> tartes</label>
+                <br><br><label for="Donuts"><input id="Donuts" type="checkbox" name="Donuts" value="yes"> Donuts</label>
+                <br><br>
+                 <label for="cupcakes"><input id="cupcakes" type="checkbox" name="tried" value="waffles">Waffles</label>
+                  <br><br><label for="macarons"><input id="macarons" type="checkbox" name="macarons" value="yes"> Macarons</label>
+                  <br><br>
+                  <label for="tiramisu"><input id="tiramisu" type="checkbox" name="tiramisu" value="yes"> Tiramisu</label>
+                   <br><br>
+                   <label for="Pizza "><input id="Pizza " type="checkbox" name="Pizza " value="yes"> Pizza </label>
+                   <br><br>
+                   <label for="Milkshakes"><input id="Milkshakes" type="checkbox" name="Milkshakes" value="yes"> Milkshakes </label>
+                   <br><br>
+                   <label for="Salades"><input id="Salades" type="checkbox" name="Salades" value="yes"> Salades </label>
+                   <br><br>
+                    <label for="brownies"><input id="brownies" type="checkbox" name="tLéclair de Genie" value="yes">Léclair de Genie</label>
+                    <br><br>
+                    <label for="brownies"><input id="brownies" type="checkbox" name="brownies" value="yes"> Brownies</label>
+<br> <br> 
+                    <label for="cinnamon-rolls"><input id="cinnamon-rolls" type="checkbox" name="croissants" value="yes"> croissants </label>
+                    <br><br>
+                  </fieldset>
+            <fieldset> 
+           
+          <label for="recommendation" class="block bold">Nous recommanderiez-vous à vos amis ?<br><br></label>
+          <label for="yes"><input id="yes" name="recommendation" value="yes" type="radio" required> Oui</label>
+            <label for="no"><input id="no" name="recommendation" value="no" type="radio" required> Non</label>
+              <br><br><br>
+              <label for="suggestions" class="block bold">Comment pouvons-nous améliorer votre expérience en tant que client ?<textarea id="suggestions" name="suggestions" rows="3" cols="30" placeholder="More cookies!" class="block">
+                </textarea>
+              </fieldset>
+              <p id="thanks" class="bold">Merci, Bonne journée !</p>
+             <button id="submit" type="submit">submit</button>
+  </form>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- footer -->
+<footer> 
+  <center> 
+       <button><a href="index.html" > Page Acceuil  </a> </button>
+  <div class="footer_tag">
+    <img src="RESEAUX-SOCIAUX-LA-PLATEFORME-CHR.png" usemap="#image_map" >
+    <map name="image_map">
+      <area alt="facebook" title="facebook"  target="_blank" href="https://www.facebook.com/" coords="73,129,53" shape="circle">
+      <area alt="Instagram" title="Instagram" target="_blank" href="https://www.instagram.com/" coords="202,131,57" shape="circle">
+      <area alt="twitter " title="twitter " target="_blank"  href="https://twitter.com/?lang=fr" coords="75,263,61" shape="circle">
+<area alt="whatsapp" title="whatsapp" target="_blank" href="https://www.whatsapp.com/?lang=fr_FR" coords="202,266,51" shape="circle">
+    </map> 
+</div>
+</center>
+</footer>
+
+
+  </body>
+  </html>
